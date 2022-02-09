@@ -1,0 +1,2 @@
+# Image-Reformat-Tool
+This script will be used on a manufacturing line vision pc. The vision system is capturing images on the line and saves all the image results as a bitmap to a file. The problem with this is the files are getting overloaded and we need a solution that will allow us to store more data for longer periods of time before having to wipe everything. This will convert all the BMP files to JPEG or any selected file type and reduce the overall size of the files.
