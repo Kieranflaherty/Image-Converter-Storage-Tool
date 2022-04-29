@@ -8,8 +8,8 @@ from datetime import datetime
 today = datetime.now()
 SECONDS_IN_DAY = 24 * 60 * 60
 
-src = "C:\Vision\Pictures\BDB040501_St25_Lower\Bad"
-dst = "E:\Vision\BDB040501_St25_Lower\Bad\BDB040501_St25_Lower_" + today.strftime('%Y_%m_%d')
+src = "C:\Vision\Data\Archive"
+dst = "E:\Data\Vision_PC_1_" + today.strftime('%Y_%m_%d')
 
 if not os.path.exists(dst):
     os.makedirs(dst)
