@@ -1,4 +1,4 @@
-# Image Converter & Storage Tool  
+# Cognex Image Converter & Storage Tool  
 
 This program reduces the size of the saved images by converting them from bmp to jpg and then creates a daily archive of images each day which allows the images to be stored for the long term. The scripts are developed in Python and run off a batch file controlled by Windows Task Scheduler. This was used in a production environment on Cognex Vision Systems which are used for capturing images on a factory line with over 60 cameras. There are 2 scripts used which I have explained below. I have also included the scheduler xml files as well as the batch files for scheduling the tasks.
 
