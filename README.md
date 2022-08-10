@@ -1,6 +1,6 @@
 # Image Converter & Storage Tool  
 
-This program reduces the size of the saved images by converting them from bmp to jpg and then creates a daily archive of images each day which allows the images to be stored for the long term. The scripts are developed in Python and run off a batch file controlled by Windows Task Scheduler. This was used in a production environment on Cognex Vision Systems which are used for capturing images 
+This program reduces the size of the saved images by converting them from bmp to jpg and then creates a daily archive of images each day which allows the images to be stored for the long term. The scripts are developed in Python and run off a batch file controlled by Windows Task Scheduler. This was used in a production environment on Cognex Vision Systems which are used for capturing images on a factory line with over 60 cameras. There are 2 scripts used which I have explained below. I have also included the scheduler xml files as well as the batch files for scheduling the tasks.
 
 ## Image Converter
 
@@ -8,6 +8,6 @@ This convert script can be used for any folder where images are being generated 
 
 ## File Archive System
 
-This script can be used to transfer files from a specified folder to another specified location. In this scenario it was used on a daily scheduled task to transfer the images from that day to a folder elswhere with the following name layout - "CAMERA_NAME_DD_MM_YYYY". The file name can be edited within the code too.
+This script can be used to transfer files from a specified folder to another specified location. In this scenario it was used on a daily scheduled task to transfer the images from that day to a folder elswhere with the following name layout - "CAMERA_NAME_DD_MM_YYYY". The file name can be edited within the code too by editing the string.
 
 
